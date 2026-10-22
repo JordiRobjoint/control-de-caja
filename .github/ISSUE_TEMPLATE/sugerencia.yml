@@ -1,0 +1,24 @@
+name: Sugerencia
+description: Propón una mejora o algo que echas en falta
+labels: ["sugerencia"]
+body:
+  - type: textarea
+    id: necesidad
+    attributes:
+      label: ¿Qué necesitas hacer?
+      description: Cuéntanos la situación de tu empresa, no solo la solución.
+      placeholder: Cada mes tengo que... y ahora lo hago a mano en Excel.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: ¿Cómo te lo imaginas?
+  - type: dropdown
+    id: importancia
+    attributes:
+      label: ¿Cuánto te importa?
+      options:
+        - Me impide usar la aplicación
+        - Me ahorraría bastante tiempo
+        - Estaría bien tenerlo

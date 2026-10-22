@@ -1,0 +1,21 @@
+# Entorno y cachés de Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Salidas de PyInstaller
+build/
+dist/
+
+# Datos: la base de datos real vive en %LOCALAPPDATA%\ControlDeCaja
+*.db
+data/
+
+# Facturas generadas o de ejemplo (pueden contener datos de clientes)
+*.pdf
+
+# Copias manuales y clones vacíos que no forman parte del proyecto
+_copia_seguridad_*/
+C/
+ControlCaja/

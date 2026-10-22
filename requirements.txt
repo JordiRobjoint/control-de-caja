@@ -1,0 +1,10 @@
+PySide6==6.11.2
+SQLAlchemy==2.0.54
+reportlab==5.0.1
+pyinstaller==6.22.3
+anthropic==1.13.0
+keyring==25.7.0
+pywin32==312; sys_platform == "win32"
+segno==1.6.6
+opencv-python-headless==5.0.0.93
+numpy==2.5.4

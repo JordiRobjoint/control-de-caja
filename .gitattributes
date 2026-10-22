@@ -1,0 +1,4 @@
+# Normalizar finales de línea de los ficheros de texto
+* text=auto
+*.png binary
+*.ico binary

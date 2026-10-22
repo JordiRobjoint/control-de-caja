@@ -1,0 +1,57 @@
+name: Algo no funciona
+description: Informa de un error de la beta
+labels: ["error"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por avisar. **No adjuntes la base de datos ni datos reales de tus clientes.**
+  - type: input
+    id: version
+    attributes:
+      label: Versión
+      description: Aparece abajo a la izquierda en el menú (por ejemplo v0.9.0).
+      placeholder: v0.9.0
+    validations:
+      required: true
+  - type: dropdown
+    id: pantalla
+    attributes:
+      label: Pantalla
+      options:
+        - Dashboard
+        - Proyectos
+        - Clientes
+        - Pedidos
+        - Cobros / facturas
+        - Pagos / gastos
+        - Gastos generales
+        - Financiación
+        - Tesorería
+        - Configuración
+        - Instalación
+        - Otra
+    validations:
+      required: true
+  - type: textarea
+    id: pasos
+    attributes:
+      label: ¿Qué estabas haciendo?
+      description: Los pasos para que nos pase lo mismo.
+      placeholder: |
+        1. Abro Cobros
+        2. Selecciono un cobro y pulso Factura
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: ¿Qué esperabas y qué ha pasado?
+    validations:
+      required: true
+  - type: textarea
+    id: capturas
+    attributes:
+      label: Capturas o mensaje de error
+      description: Arrastra aquí una captura de pantalla si puedes (tapa los importes o datos sensibles).

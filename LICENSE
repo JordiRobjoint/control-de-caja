@@ -1,0 +1,30 @@
+Control de Caja
+Copyright (c) 2026. Todos los derechos reservados.
+
+LICENCIA DE USO DE LA VERSIÓN BETA
+
+1. Se concede a la persona o empresa que recibe esta versión beta un
+   permiso gratuito, personal e intransferible para instalar y usar el
+   programa con el fin de probarlo.
+
+2. No está permitido copiar, modificar, adaptar, descompilar,
+   redistribuir, vender, sublicenciar ni publicar el programa ni su
+   código fuente, en todo o en parte, sin autorización previa por
+   escrito del titular.
+
+3. El programa se entrega "tal cual", en fase de pruebas, sin garantía
+   de ningún tipo, expresa ni implícita, incluidas las de funcionamiento,
+   adecuación a un fin concreto o ausencia de errores. Las cifras,
+   previsiones y facturas que genera deben revisarse antes de usarse.
+
+4. En ningún caso el titular será responsable de daños, pérdidas de
+   datos, pérdidas económicas ni reclamaciones derivadas del uso o de la
+   imposibilidad de uso del programa. Es responsabilidad del usuario
+   hacer copias de seguridad de sus datos.
+
+5. Este permiso termina automáticamente al acabar el periodo de pruebas
+   o si se incumple cualquiera de estas condiciones.
+
+Las librerías de terceros incluidas en el instalador se rigen por sus
+propias licencias (PySide6/Qt: LGPL v3; ReportLab: BSD; SQLAlchemy: MIT;
+entre otras).
