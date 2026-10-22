@@ -59,7 +59,7 @@ un NAS o un USB): allí se guardará también una copia diaria.
 ### Errores y sugerencias
 
 Nos ayuda mucho que nos cuentes lo que falla o lo que echas en falta.
-Si tienes acceso a este repositorio, abre una **incidencia (Issue)**; si
+Si tienes cuenta de GitHub, abre una **incidencia** en la pestaña **Issues**; si
 no, escribe a quien te envió la beta. Indica qué estabas haciendo, qué
 esperabas y qué ha pasado, y adjunta una captura si puedes. **No envíes
 la base de datos ni datos reales de tus clientes.**
